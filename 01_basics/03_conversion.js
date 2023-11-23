@@ -23,9 +23,20 @@ let isValue = Boolean(bool);
 let str = undefined;
 
 let str1 = String(str);
-console.log(typeof str1);
-console.log(str1);
+// console.log(typeof str1);
+// console.log(str1);
 
 //33=>"33"
 //null=>null
 //undefined=>undefined
+
+
+//****operations****//
+// console.log(2+"2") //22
+// console.log("2"+ ++2);  //error
+//console.log(++2 + "2") //error
+
+console.log("1"+2+3) //123  pehele string ho toh sab string
+console.log(2+3+"1") //51   baad mein string ho toh pehele operations 
+console.log(1+"2"+3) //123
+console.log(""+0) // 0 
