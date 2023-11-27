@@ -45,5 +45,11 @@ console.log(Object.entries(obj)); //gives array in array
 
 console.log(obj.hasOwnProperty("fullName")); //checks wheather key is present in object or not...
 
+///object Destructuring
+
+const {name} = obj
+
+console.log(name); 
+
 
 
